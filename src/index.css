@@ -1,0 +1,20 @@
+.scroll_view_root {
+  overflow: auto;
+  position: relative;
+  width: 100%;
+}
+.scroll_view_root  .scroll_view_item {
+  width: 100%;
+  flex-shrink: 0;
+}
+.scroll_view_root::-webkit-scrollbar {
+  display: none
+}
+
+.scroll_view_root.scroll_view_x {
+  display: flex;
+}
+
+.scroll_view_root.scroll_view_y {
+  
+}
